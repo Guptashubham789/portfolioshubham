@@ -1,0 +1,49 @@
+[debug] [2022-09-28T21:52:47.339Z] ----------------------------------------------------------------------
+[debug] [2022-09-28T21:52:47.341Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-28T21:52:47.341Z] CLI Version:   11.11.0
+[debug] [2022-09-28T21:52:47.341Z] Platform:      win32
+[debug] [2022-09-28T21:52:47.341Z] Node Version:  v17.8.0
+[debug] [2022-09-28T21:52:47.350Z] Time:          Thu Sep 29 2022 03:22:47 GMT+0530 (India Standard Time)
+[debug] [2022-09-28T21:52:47.351Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-28T21:52:47.360Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-28T21:52:47.361Z] > authorizing via signed-in user (sg731159@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hp\Desktop\Protfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-28T21:53:20.381Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-09-28T21:53:22.155Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-09-28T21:53:22.156Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project shubhamportfolio-783e4 (shubhamPortfolio) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-09-28T21:56:25.728Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-09-28T21:56:26.345Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-09-28T21:56:26.347Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.10.0","browserURL":"https://www.gstatic.com/firebasejs/9.10.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.10.0/firebase.tgz"},"live":{"version":"9.10","browserURL":"https://www.gstatic.com/firebasejs/live/9.10/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.10/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.10.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.10.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.10.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.10.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.10.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.10.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.10.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.10.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.10.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.10.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.10.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] i  Writing gitignore file to .gitignore... 
+[info] 
+[info] +  Firebase initialization complete! 
